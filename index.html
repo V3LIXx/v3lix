@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-  <title>V3LIX</title>
 <style>
 body, html {
   height: 100%;
@@ -8,22 +7,16 @@ body, html {
 }
 
 .bgimg {
+  background-image: url('./back.png');
   height: 100%;
   background-position: center;
   background-size: cover;
-  position: absolute;
-  color: black;
+  position: relative;
+  color: white;
   font-family: "Courier New", Courier, monospace;
   font-size: 25px;
-}  
-  #back {
-  position: static;
-  right: 0;
-  bottom: 0;
-  min-width: 100%; 
-  min-height: 100%;
 }
-  
+
 .topleft {
   position: absolute;
   top: 0;
@@ -61,15 +54,10 @@ hr {
     <p id="demo" style="font-size:30px"></p>
   </div>
   <div class="bottomleft">
-    <p>RECENTLY WORK : <a href="https://discord.gg/U9m9p4u"><b>ERYSTIA LAUNCHER</b></a></p>
+    <p>RECENT WORK <a href=https://discord.gg/U9m9p4u">ERYSTIA LAUNCHER</a></p>
   </div>
 </div>
 
-<video autoplay muted loop id="back">
-  <source src="back.mp4" type="video/mp4">
-  Your browser does not support HTML5 video.
-</video>
-  
 <script>
 // Set the date we're counting down to
 var countDownDate = new Date("Jan 5, 2021 15:37:25").getTime();
